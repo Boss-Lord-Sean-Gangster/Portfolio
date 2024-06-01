@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./preloader-style.css">
+    <title>Document</title>
+    </head>
+<body>
+    <div class="preloader-container">
+        <div class="text-content">
+            <input type="range" id="slider">
+            <article><p id="display">0%</p></article>
+        </div>
+    </div>
+</body>
+<script>
+  slider.value = 0;
+
+    setInterval(() => {
+        slider.value++;
+        display.innerText = slider.value +'%';
+ 
+        function blah(){
+            if (slider.value == 100) {
+            display.style.backgroundColor = 'red';
+        }
+        else{
+            display.style.color = "white"    
+        }
+    }
+        
+    }, 10 );
+   
+    
+    
+</script>
+</html>
