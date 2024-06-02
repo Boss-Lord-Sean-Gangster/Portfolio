@@ -18,7 +18,7 @@ function settingtoggle(){
 }
 // Resume Button
 function openURL() {
-    var url = "src/pdf/NikhiL Sharma Resume-2.pdf";
+    var url = "https://drive.google.com/file/d/1c0rcNX6tiPXv5MC1dXTabXl-i0T2e7Ts/view?usp=sharing";
     window.open(url, '_blank');
   }
 
