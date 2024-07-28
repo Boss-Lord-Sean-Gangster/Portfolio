@@ -18,7 +18,7 @@ function settingtoggle(){
 }
 // Resume Button
 function openURL() {
-    var url = "https://drive.google.com/file/d/1c0rcNX6tiPXv5MC1dXTabXl-i0T2e7Ts/view?usp=sharing";
+    var url = "https://drive.google.com/file/d/11_9SKkTtiLJFFLvu1BfRxC8XKqRKbog5/view?usp=sharing";
     window.open(url, '_blank');
   }
 
